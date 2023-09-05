@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+    .main {
+        padding: 5%;
+        grid-template-columns: 1fr;
+    }
+
+    .header p br {
+        display: none;
+    }
+}

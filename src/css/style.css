@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    grid-area: header;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 200;
+    color: var(--very-dark-blue);
+    margin-bottom: 1.25rem;
+}
+
+.header h1 span {
+    font-weight: 600;
+}
+
+.header p,
+.main p {
+    color: var(--grayish-blue);
+}
+
+.main {
+    grid-area: main;
+    padding: 3% 10% 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.875rem;
+    align-items: center;
+}
+
+.double {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.main article {
+    box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+    padding: 1.875rem;
+    border-radius: 0.625rem;
+}
+
+.main article h2 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 0.625rem;
+}
+
+.main p {
+    margin-bottom: 1.875rem;
+}
+
+.main div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.supervisor {
+    border-top: 5px solid var(--cyan);
+} 
+
+.team {
+    border-top: 5px solid var(--red);
+}
+
+.calculator {
+    border-top: 5px solid var(--blue);
+}
+
+.karma {
+    border-top: 5px solid var(--orange);
+}
