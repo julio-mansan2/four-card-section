@@ -49,8 +49,7 @@ Versão Mobile
 
 - Marcações semânticas de HTML5
 - Propriedades de customização do CSS3
-- Estruturas de JavaScript
-
+  
 <br>
 
 ### O que aprendi
